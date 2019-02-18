@@ -13,4 +13,19 @@ export default class Empleado {
 
     }
 
+    get nombre() {
+        return this._nombre;
+    }
+
+    get cedula() {
+        return this._cedula;
+    }
+    
+    get puesto() {
+        return this._puesto;
+    }
+    set puesto(puesto) {
+        this._puesto = puesto;
+    }
+
 }
